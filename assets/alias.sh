@@ -1,0 +1,6 @@
+alias cdd="cd ~/develop"
+alias cdt="cd ~/testing"
+alias cdw="cd ~/workspace"
+alias cdp="cd ~/project"
+alias au="apt update"
+alias ag="apt upgrade"
