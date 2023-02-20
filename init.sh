@@ -20,3 +20,7 @@ apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 # Install common software
 apt install wget curl git vim -y
 apt install zsh fish -y
+
+# localized system configuration
+dpkg-reconfigure locales
+dpkg-reconfigure tzdata
