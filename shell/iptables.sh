@@ -21,7 +21,7 @@ iptables -t mangle -F
 iptables -X
 iptables -t nat -X
 iptables -t mangle -X
-All rules have been deleted
+# All rules have been deleted
 
 # Allow ssh port
 iptables -A INPUT -p tcp --dport 22 -j ACCEPT
