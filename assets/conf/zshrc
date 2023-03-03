@@ -109,13 +109,13 @@ source $ZSH/oh-my-zsh.sh
 
 #Custom alias configuration
 
-alias cdd="cd /root/develop"
-alias cdt="cd /root/testing"
-alias cdw="cd /root/workspace"
-alias cdp="cd /root/project"
+alias cdd="cd ~/develop"
+alias cdt="cd ~/testing"
+alias cdw="cd ~/workspace"
+alias cdp="cd ~/project"
 alias au="apt update"
 alias ag="apt upgrade"
-alias ds="bash /root/.shell/status/60-docker"
+alias ds="bash ~/.shell/status/60-docker"
 alias rize="composerize"
 alias dct="docker run -it --rm --net=host --name test"
 
