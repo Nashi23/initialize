@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 # install docker
 apt update
 apt-get install \
