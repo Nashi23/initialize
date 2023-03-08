@@ -31,6 +31,6 @@ iptables -P FORWARD DROP
 iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 # Allow local and lan access to all ports
 iptables -A INPUT -p tcp -j ACCEPT -s 127.0.0.1
-iptables -A INPUT -s 10.0.0.0/8 -j ACCEPT
-iptables -A INPUT -s 172.0.0.0/8 -j ACCEPT 
-iptables -A INPUT -s 192.168.0.0/24 -j ACCEPT
+#iptables -A INPUT -s 10.0.0.0/8 -j ACCEPT
+#iptables -A INPUT -s 172.0.0.0/8 -j ACCEPT 
+#iptables -A INPUT -s 192.168.0.0/24 -j ACCEPT
